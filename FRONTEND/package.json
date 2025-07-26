@@ -16,6 +16,7 @@
     "@hookform/resolvers": "^5.1.1",
     "@monaco-editor/react": "^4.7.0",
     "@reduxjs/toolkit": "^2.8.2",
+    "@tailwindcss/vite": "^4.1.11",
     "@uiw/react-codemirror": "^4.24.1",
     "axios": "^1.10.0",
     "day-1": "file:..",
