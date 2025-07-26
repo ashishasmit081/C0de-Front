@@ -42,7 +42,7 @@ const InitializeConnection = async ()=>{
         await Promise.all([main(), redisClient.connect()]);
         console.log("DBs connected")
 
-        app.listen(process.env.PORT_NO,()=> {
+        app.listen(process.env.PORT ||process.env.PORT_NO,()=> {
         console.log("Port is listening")
         })
     }
