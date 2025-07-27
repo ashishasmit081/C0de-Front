@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon BACKEND/src/index.js",
+    "start": "node BACKEND/src/index.js",
     "build": "npm install && npm install --prefix FRONTEND && npm run build --prefix FRONTEND",
-    "dev": "nodemon BACKEND/src/index.js"
+    "dev": "node BACKEND/src/index.js"
   },
   "keywords": [],
   "author": "",
